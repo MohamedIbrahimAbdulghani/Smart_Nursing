@@ -1,0 +1,52 @@
+
+/* .container-fluid {
+    height: 50vh;
+} */
+.bor{
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+}
+.carousel-indicators .active{
+  background-color: #1374ba;
+} 
+.border-carsol{
+ 
+  border: 1px solid ;
+  border-radius: 10px;
+  border-color: gray;
+
+}
+
+.nurse-one{
+  width: 24%;
+  border: 1px solid ;
+  border-radius: 10px;
+  border-color: gray;
+}
+.nurse-comment{
+  width: 24%;
+  border: 1px solid ;
+  border-radius: 10px;
+  border-color: gray;
+  height: 120px;
+}
+.nurse-tow{
+  width: 24%;
+  height: 120px;
+  border: 1px solid ;
+  border-radius: 10px;
+  border-color: gray;
+}
+.text-carsol{
+  color: #2c4964;
+}
+.ooo{
+  width: 20px;
+  margin-right: 3px;
+  /* margin-right: 10px; */
+}
+.carsol-rout{
+  margin-bottom: -30px;
+}
+

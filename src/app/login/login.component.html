@@ -1,0 +1,47 @@
+
+<section class="form">
+  <img src="../../assets/logo2-01.png"class="logo">
+  <div class="container">
+    <div class="row all">
+      <div class="col-md-5">
+        <img src="../../assets/3728137.jpg" class="img-fluid image">
+      </div>
+      <div class="col-md-7">
+        <form #loginForm="ngForm" (ngSubmit)="loginUser(loginForm);">
+          <h1>Sign in</h1>
+          <div class="form-row">
+            <div class="col-md-7 fields">
+              <img src="../../assets/name.png" class="img-name">
+              <input type="text" class="form-control" placeholder="Your Name" name="username_login" ngModel required #username_login="ngModel">
+              <small class="form-text text-muted" *ngIf="username_login.touched && !username_login.valid"> Please Enter Your Name</small>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="col-md-7 fields">
+              <img src="../../assets/padlock.png" class="img-name">
+              <input type="password" class="form-control" placeholder="Your Password" name="password_login" ngModel required #password_login="ngModel">
+              <small class="form-text text-muted" *ngIf="password_login.touched && !password_login.valid"> Please Enter Your Password</small>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="col-md-7 fields">
+              <img src="../../assets/employee.png" class="img-name">
+              <input type="text" class="form-control" placeholder="Your Roll" name="roll_login" ngModel required #roll_login="ngModel">
+              <small class="form-text text-muted" *ngIf="roll_login.touched && !roll_login.valid"> Please Enter Your Roll</small>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="col-md-7">
+              <button type="submit" class="btn btn-primary" routerLink="/profile" [disabled]="!loginForm.valid">Sign in</button>
+              <div class="icons">
+                <i class="fas fa-envelope"></i>
+                <i class="fab fa-facebook"></i>
+              </div>
+              <p>Don't have account? <span class="span-sign" routerLink="/register">Sign UP</span>  now</p>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>

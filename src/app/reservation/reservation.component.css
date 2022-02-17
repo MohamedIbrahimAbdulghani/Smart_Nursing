@@ -1,0 +1,72 @@
+.reservation {
+  background-image: url("../../assets/4858794.jpg");
+  width: 100%;
+  height: 100vh;
+}
+.reservation img {
+  width: 40%;
+  margin-left: 30%;
+}
+form {
+  margin-top: 15px;
+}
+.p {
+  color: #2c4964;
+  font-size: 25px;
+  font-weight: bold;
+}
+.email,
+.phone,
+.date,
+.number {
+  display: inline-block;
+  width: 49%
+}
+.phone {
+  margin-left: 2%;
+}
+.number {
+  margin-left: 2%;
+}
+.confirmation {
+  margin-left: 100px;
+  margin-top: -175px;
+  display: inline;
+  width: 20%;
+  border-radius: 42px;
+}
+form p {
+  color: #707070;
+  font-size: 25px;
+  font-weight: bold;
+}
+@media(max-width: 768px) {
+  .confirmation {
+    width: 25%
+  }
+  form {
+    line-height: 1;
+    margin-top: 0;
+  }
+}
+@media(max-width: 425px) {
+  .confirmation {
+    width: 30%;
+  }
+}
+@media(max-width: 375px) {
+  .confirmation {
+    width: 35%;
+    margin-left: 190px
+  }
+}
+@media(max-width: 320px) {
+  .confirmation {
+    width: 40%;
+    margin-left: 150px;
+  }
+  .p {
+    font-size: 20px
+  }
+}
+

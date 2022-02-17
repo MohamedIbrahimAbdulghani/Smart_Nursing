@@ -1,0 +1,21 @@
+.empty-sec{
+  height: 15vh; 
+} 
+
+.counter{
+   background-color:#e2e9f1;
+}
+/* #e2e9f1 */
+.counter2{
+   border: solid 1px; 
+   border-color: gray;
+}
+.counter2 img{
+   margin-top: -38px;
+}
+.counter-num{
+   color: #2c4964;
+}
+.counter-txt{
+   color: #2c4964;
+}

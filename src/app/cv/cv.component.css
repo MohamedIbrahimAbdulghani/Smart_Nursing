@@ -1,0 +1,326 @@
+/* Start NavBar */
+.parent {
+  display: contents;
+}
+.logo2 {
+  width: 22%;
+}
+.logo-img {
+  width: 100%;
+  margin-left: 10px;
+}
+.start {
+  margin: auto;
+  display: flex;
+}
+.start img {
+  margin-left: 5px;
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+}
+.start span {
+  font-size: 20px;
+  color: #707070;
+  margin-left: 5%;
+  font-weight: bold;
+}
+.enter .notification-img {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  margin-left: -15%;
+}
+.enter span {
+  font-weight: bold;
+  margin-right: 5%;
+  margin-left: 5%;
+  font-size: 20px;
+}
+.enter .profile-user-img {
+  width: 50px;
+  cursor: pointer;
+}
+@media(max-width: 991px) {
+  .start img {
+    width: 20px;
+    height: 20px;
+  }
+  .start span {
+    font-size: 17px;
+  }
+}
+@media(max-width: 550px) {
+  .start {
+    margin-left: 5%;
+  }
+  .start img {
+    width: 13px;
+    height: 13px;
+  }
+  .start span {
+    font-size: 15px;
+    margin-top: -3%;
+  }
+}
+@media(max-width: 425px) {
+  .start img {
+    width: 12px;
+    height: 12px;
+    margin-top: 6px;
+  }
+  .start span {
+    font-size: 18px;
+    margin-top: 0%;
+  }
+  .enter .notification-img {
+    width: 26px;
+    height: 26px;
+    margin-left: -7%
+  }
+  .enter span {
+    font-size: 16px;
+    margin-left: 0%;
+  }
+  .enter .profile-user-img {
+    width: 35px;
+  }
+}
+@media(max-width: 375px) {
+  .start img {
+    width: 11px;
+    height: 11px;
+    margin-top: 7px;
+  }
+  .start span {
+    font-size: 13px;
+    margin-top: 2%;
+  }
+  .enter .notification-img {
+    width: 22px;
+    height: 22px;
+    margin-left: -5%;
+  }
+  .enter span {
+    font-size: 13px;
+  }
+}
+@media(max-width: 320px) {
+  .start img {
+    width: 10px;
+    height: 10px;
+    margin-top: 7px;
+  }
+  .start span {
+    font-size: 11px;
+    margin-top: 4%;
+  }
+  .enter .notification-img {
+    width: 21px;
+    height: 21px;
+    margin-left: -10%;
+  }
+  .enter span {
+    font-size: 11px;
+  }
+  .enter .profile-user-img {
+    width: 30px;
+  }
+}
+/* End NavBar */
+
+/* Start Section Info */
+.info  {
+  width: 100%;
+}
+.back {
+  background-image: url("../../assets/rm373batch7-blogbanner-01-01.jpg");
+  background-size: cover;
+  background-position: top;
+  width: 100%;
+  height: 350px
+}
+.info .about {
+  background-color: white;
+  width: 80%;
+  margin: auto;
+  box-shadow: 0px 0px 5px 1px black;
+  position: relative;
+  margin-top: -11%;
+  padding-bottom: 2%;
+  margin-bottom: 10%;
+}
+.info .about img {
+  width: 95%;
+  height: 350px;
+  margin: 15px 0px 0 15px;
+  box-shadow: 0px 0px 4px 1px black;
+}
+.info .details {
+  margin-top: 3%;
+}
+.info .details h1,
+.info .details h2 {
+  color: #2c4964;
+
+}
+.info .details .start {
+  margin-top: 5%;
+}
+.info .details .start i {
+  margin-right: 2%;
+  font-size: 20px;
+  color: #707070
+}
+.info .details .start span {
+  margin-top: -2%;
+}
+.info .details img {
+  width: 35px;
+  height: 35px;
+  margin-left: -1%;
+  box-shadow: none;
+  margin-bottom: 5%;
+}
+.info .details .com {
+  width: 200px;
+}
+.info .details .com span {
+  color: green;
+  font-size: 20px;
+  font-weight: bold;
+}
+.info .details .com h5 {
+  display: inline-block;
+  margin-left: 5%;
+  color: #707070
+}
+.info .about button {
+  background-color: #1374ba;
+  border: none;
+  box-shadow: none;
+  margin-top: 20%;
+  margin-left: 40%;
+}
+.info .time {
+  margin-top: 2%;
+  margin-left: 2%;
+}
+.info .time i {
+  color: green;
+  margin-left: 5px;
+}
+.info .time p {
+  display: inline;
+  margin-left: 1%;
+  color: #2c4964;
+  font-size: 20px;
+  font-weight: bold;
+}
+.info .time p.online {
+    display: inline;
+    margin-left: 1%;
+    color: green;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.info .first {
+  margin-left: 7px;
+  margin-top: 1%;
+}
+.info .first img {
+  width: 30px;
+    height: 30px;
+    box-shadow: none;
+    margin: 0;
+}
+/* End Section Info */
+
+/* Start Section CV */
+.upload .input-group {
+  margin-bottom: 2%;
+}
+.upload img {
+  width: 100%;
+  margin-top: 5%;
+  height: 900px
+}
+.chat {
+  width: 5%;
+  margin-left: 95%;
+  cursor: pointer;
+}
+/* End Section CV */
+
+/* Start Section CopyRight */
+.copyright {
+  width: 100%;
+  background-color: #1374ba;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  padding: 1%;
+}
+.copyright p {
+  margin-bottom: 0
+}
+/* End Section CopyRight */
+@media(max-width: 1440px) {
+  .info .about {
+    margin-top: -10%;
+  }
+}
+@media(max-width: 1024px) {
+  .info .about {
+    margin-top: -19%;
+  }
+}
+@media(max-width: 991px) {
+  .info .details h1,
+  .info .details h2 {
+    font-size: 24px;
+    color: #2c4964;
+    margin-top: 10%;
+  }
+}
+@media(max-width: 768px) {
+  .info .about button {
+    margin-left: 19%;
+  }
+  .info .about {
+    margin-top: -30%;
+  }
+}
+@media(max-width: 575px) {
+  .info .details h2 {
+    margin: 0%;
+  }
+  .info .about button {
+    margin-left: 0%;
+    margin-top: 5%;
+  }
+}
+@media(max-width: 425px) {
+  .info .about img {
+    margin-left: 3%;
+  }
+  .info .about {
+    margin-top: -59%;
+  }
+}
+@media(max-width: 375px) {
+  .info .about {
+    margin-top: -67%;
+  }
+}
+@media(max-width: 320px) {
+  .info .about {
+    margin-top: -79%;
+  }
+  .info  .time p {
+    font-size: 14px;
+  }
+}
+/* End Section Info */

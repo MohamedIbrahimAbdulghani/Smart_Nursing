@@ -1,0 +1,23 @@
+.logo-Website{
+  width: 250px;
+}
+.social-icon{
+    width: 20px;
+}
+.section-social{
+    background-color: #f1f7fd;
+}
+.mobile-alt{
+    color: #1374ba;
+}
+.nav-link-home{
+  color: #1374ba !important;
+  font-size: 20px;
+}
+.nav-link-hover:hover{
+    color: #1374ba !important;
+    transition: 0.5s;
+}
+.nav-item a {
+  cursor: pointer;
+}

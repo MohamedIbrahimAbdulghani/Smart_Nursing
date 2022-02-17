@@ -1,0 +1,39 @@
+.logo-Website{
+  width: 250px;
+}
+.sec-profile img{
+width: 30px;
+cursor: pointer;
+margin-left: 15px;
+}
+.profile{
+    width: 50px!important;
+    cursor: pointer;
+}
+.section-text{
+  height: 50vh;
+}
+.nav-link-hover:hover{
+  color: #1374ba !important;
+  transition: 0.5s;
+}
+.nav-link-home{
+  color: #1374ba !important;
+  font-size: 20px;
+}
+.user-name{
+    color: #2c4964;
+    margin-left: 15px;
+}
+.social-icon{
+  width: 20px;
+}
+.section-social{
+  background-color: #f1f7fd;
+}
+.mobile-alt{
+  color: #1374ba;
+}
+.nav-item a {
+  cursor: pointer;
+}

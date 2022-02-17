@@ -1,0 +1,55 @@
+header{
+  background-image: url(../../assets/hero-bg.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 75vh;
+  }
+  .main-text-header{
+      margin-top: 100px;
+  }
+  .header-text{
+      color: #1374ba;
+  }
+  .text-header{
+      color: #2c4964;
+      font-weight: 700;
+  }
+  .end-home{
+      margin-top: 40px;
+      border-radius: 20px;
+      border-style:  solid ;
+      border-color: #1374ba;
+  }
+  /* @media (max-width:768px) {
+
+   .header-text {
+
+  }
+
+  }  */
+  /* @media (max-width:1024px){
+      .main-text-header{
+          margin-top: 0;
+      }
+  }
+  @media (max-width:768px){
+
+  }
+  @media (max-width:425px){
+
+  }
+  @media (max-width:375px){
+
+  }
+  @media (max-width:320px){
+      .main-text-header{
+          margin-top: -50px;
+
+      }
+      .end-home{
+          margin-top: -20px;
+          height: 90%;
+      }
+
+  } */

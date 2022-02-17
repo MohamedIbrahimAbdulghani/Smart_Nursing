@@ -1,0 +1,21 @@
+.text-service{
+  background-color: #e2e9f1;
+  border: solid 1px; 
+  border-color: gray;
+}
+.head-service{
+  color: #1374ba;
+}
+.phar-services{
+  color: #2c4964;
+ 
+}
+.imag-services{
+  border: solid 1px; 
+  border-color: gray;  
+}
+.sec-service img{
+width: 18%;
+background-color:white;
+border-radius: 50%;
+}
